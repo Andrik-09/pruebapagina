@@ -33,7 +33,14 @@
         <header class="gradient-bg text-white p-12 text-center relative overflow-hidden">
             <i data-lucide="book" class="w-64 h-64 absolute -top-10 -right-10 opacity-10"></i>
             <h1 class="text-5xl font-extrabold mb-4 relative z-10">La Monografía</h1>
-            <p class="text-xl font-light text-blue-100 relative z-10">Guía rápida sobre el trabajo de investigación documental</p>
+            <p class="text-xl font-light text-blue-100 relative z-10 mb-6">Guía rápida sobre el trabajo de investigación documental</p>
+            
+            <!-- Etiqueta del Autor -->
+            <div class="inline-block bg-blue-800 bg-opacity-60 px-5 py-2 rounded-full relative z-10 backdrop-blur-sm border border-blue-400 shadow-sm">
+                <p class="text-sm md:text-base font-semibold text-white flex items-center gap-2">
+                    <i data-lucide="user" class="w-4 h-4"></i> Por: Andrik Pérez Luna
+                </p>
+            </div>
         </header>
 
         <div class="p-10 space-y-12">
@@ -211,7 +218,7 @@
         </div>
         
         <footer class="bg-gray-800 text-center p-6 text-gray-400 text-sm">
-            Creado para facilitar el aprendizaje académico y la investigación.
+            Creado por <strong>Andrik Pérez Luna</strong> para facilitar el aprendizaje académico y la investigación.
         </footer>
     </div>
 
@@ -243,6 +250,10 @@
                 btn.innerHTML = originalText;
                 lucide.createIcons();
             });
+        }
+    </script>
+</body>
+</html>
         }
     </script>
 </body>
